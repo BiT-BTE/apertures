@@ -1,4 +1,4 @@
-##<img src="assets/BODYinTRANSIT_logo_02.jpg" alt="Tectonica by BODYinTRANSIT Logo" width="400"/>
+<img src="assets/BODYinTRANSIT_logo_02.jpg" alt="Tectonica by BODYinTRANSIT Logo" width="400"/>
 
 Tectonica by BiT is a research project funded by the European Research Council (ERC) and led by Prof. Ana Tajadura-Jiménez. The project will run from January 2022 to December 2026 within the Department of Computer Science at Universidad Carlos III de Madrid, Spain.
 
