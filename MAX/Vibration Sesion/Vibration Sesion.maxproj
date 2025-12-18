@@ -2,7 +2,7 @@
 	"name" : "Vibration Sesion",
 	"version" : 1,
 	"creationdate" : 3762338473,
-	"modificationdate" : 3841649846,
+	"modificationdate" : 3846405367,
 	"viewrect" : [ 41.0, 189.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -12,8 +12,7 @@
 		"patchers" : 		{
 			"Vibration Sesion.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
+				"local" : 1
 			}
 ,
 			"embodyment_Workshop.maxpat" : 			{
@@ -21,7 +20,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/img-mov/git/i_mBODY-Sonification/embodyment-Workshops/Max/embodyment_Workshop/patchers",
-					"projectrelativepath" : "../../../embodyment-Workshops/Max/embodyment_Workshop/patchers"
+					"projectrelativepath" : "../../../i_mBODY-Sonification/embodyment-Workshops/Max/embodyment_Workshop/patchers"
 				}
 
 			}
@@ -31,7 +30,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/img-mov/git/i_mBODY-Sonification/embodyment-Workshops/Max/embodyment_Workshop/patchers",
-					"projectrelativepath" : "../../../embodyment-Workshops/Max/embodyment_Workshop/patchers"
+					"projectrelativepath" : "../../../i_mBODY-Sonification/embodyment-Workshops/Max/embodyment_Workshop/patchers"
 				}
 
 			}
@@ -46,7 +45,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/img-mov/git/i_mBODY-Sonification/Vibration/MAX/PA-Suxin/patchers",
-					"projectrelativepath" : "../PA-Suxin/patchers"
+					"projectrelativepath" : "../../../i_mBODY-Sonification/Vibration/MAX/PA-Suxin/patchers"
 				}
 
 			}
@@ -56,12 +55,17 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/img-mov/git/i_mBODY-Sonification/Vibration/MAX/PA-Suxin/patchers",
-					"projectrelativepath" : "../PA-Suxin/patchers"
+					"projectrelativepath" : "../../../i_mBODY-Sonification/Vibration/MAX/PA-Suxin/patchers"
 				}
 
 			}
 ,
 			"rollingBalance.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"vibrations2-doors.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -129,7 +133,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/img-mov/git/SoniBand-SoniShoes/Max/v9/media",
-					"projectrelativepath" : "../../../../SoniBand-SoniShoes/Max/v9/media"
+					"projectrelativepath" : "../../../SoniBand-SoniShoes/Max/v9/media"
 				}
 
 			}
@@ -139,7 +143,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/img-mov/git/SoniBand-SoniShoes/Max/v9/media",
-					"projectrelativepath" : "../../../../SoniBand-SoniShoes/Max/v9/media"
+					"projectrelativepath" : "../../../SoniBand-SoniShoes/Max/v9/media"
 				}
 
 			}
@@ -149,7 +153,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/img-mov/git/SoniBand-SoniShoes/Max/v9/media",
-					"projectrelativepath" : "../../../../SoniBand-SoniShoes/Max/v9/media"
+					"projectrelativepath" : "../../../SoniBand-SoniShoes/Max/v9/media"
 				}
 
 			}
@@ -159,7 +163,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/img-mov/git/SoniBand-SoniShoes/Max/v9/media",
-					"projectrelativepath" : "../../../../SoniBand-SoniShoes/Max/v9/media"
+					"projectrelativepath" : "../../../SoniBand-SoniShoes/Max/v9/media"
 				}
 
 			}
@@ -169,7 +173,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/img-mov/git/SoniBand-SoniShoes/Max/v9/media",
-					"projectrelativepath" : "../../../../SoniBand-SoniShoes/Max/v9/media"
+					"projectrelativepath" : "../../../SoniBand-SoniShoes/Max/v9/media"
 				}
 
 			}
@@ -179,7 +183,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/img-mov/git/SoniBand-SoniShoes/Max/v9/media",
-					"projectrelativepath" : "../../../../SoniBand-SoniShoes/Max/v9/media"
+					"projectrelativepath" : "../../../SoniBand-SoniShoes/Max/v9/media"
 				}
 
 			}
@@ -189,7 +193,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/img-mov/git/SoniBand-SoniShoes/Max/v9/media",
-					"projectrelativepath" : "../../../../SoniBand-SoniShoes/Max/v9/media"
+					"projectrelativepath" : "../../../SoniBand-SoniShoes/Max/v9/media"
 				}
 
 			}
@@ -199,7 +203,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/img-mov/git/SoniBand-SoniShoes/Max/v9/media",
-					"projectrelativepath" : "../../../../SoniBand-SoniShoes/Max/v9/media"
+					"projectrelativepath" : "../../../SoniBand-SoniShoes/Max/v9/media"
 				}
 
 			}
@@ -209,7 +213,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/img-mov/git/SoniBand-SoniShoes/Max/v9/media",
-					"projectrelativepath" : "../../../../SoniBand-SoniShoes/Max/v9/media"
+					"projectrelativepath" : "../../../SoniBand-SoniShoes/Max/v9/media"
 				}
 
 			}
@@ -219,7 +223,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/img-mov/git/SoniBand-SoniShoes/Max/v9/media",
-					"projectrelativepath" : "../../../../SoniBand-SoniShoes/Max/v9/media"
+					"projectrelativepath" : "../../../SoniBand-SoniShoes/Max/v9/media"
 				}
 
 			}
@@ -229,7 +233,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/img-mov/git/SoniBand-SoniShoes/Max/v9/media",
-					"projectrelativepath" : "../../../../SoniBand-SoniShoes/Max/v9/media"
+					"projectrelativepath" : "../../../SoniBand-SoniShoes/Max/v9/media"
 				}
 
 			}
@@ -239,7 +243,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/img-mov/git/SoniBand-SoniShoes/Max/v9/media",
-					"projectrelativepath" : "../../../../SoniBand-SoniShoes/Max/v9/media"
+					"projectrelativepath" : "../../../SoniBand-SoniShoes/Max/v9/media"
 				}
 
 			}
@@ -249,7 +253,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/img-mov/git/SoniBand-SoniShoes/Max/v9/media",
-					"projectrelativepath" : "../../../../SoniBand-SoniShoes/Max/v9/media"
+					"projectrelativepath" : "../../../SoniBand-SoniShoes/Max/v9/media"
 				}
 
 			}
@@ -259,7 +263,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/img-mov/git/SoniBand-SoniShoes/Max/v9/media",
-					"projectrelativepath" : "../../../../SoniBand-SoniShoes/Max/v9/media"
+					"projectrelativepath" : "../../../SoniBand-SoniShoes/Max/v9/media"
 				}
 
 			}
@@ -269,7 +273,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/img-mov/git/SoniBand-SoniShoes/Max/v9/media",
-					"projectrelativepath" : "../../../../SoniBand-SoniShoes/Max/v9/media"
+					"projectrelativepath" : "../../../SoniBand-SoniShoes/Max/v9/media"
 				}
 
 			}
@@ -279,7 +283,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/img-mov/git/SoniBand-SoniShoes/Max/v9/media",
-					"projectrelativepath" : "../../../../SoniBand-SoniShoes/Max/v9/media"
+					"projectrelativepath" : "../../../SoniBand-SoniShoes/Max/v9/media"
 				}
 
 			}
@@ -289,7 +293,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/img-mov/git/SoniBand-SoniShoes/Max/v9/media",
-					"projectrelativepath" : "../../../../SoniBand-SoniShoes/Max/v9/media"
+					"projectrelativepath" : "../../../SoniBand-SoniShoes/Max/v9/media"
 				}
 
 			}
@@ -299,7 +303,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/img-mov/git/SoniBand-SoniShoes/Max/v9/media",
-					"projectrelativepath" : "../../../../SoniBand-SoniShoes/Max/v9/media"
+					"projectrelativepath" : "../../../SoniBand-SoniShoes/Max/v9/media"
 				}
 
 			}
@@ -309,7 +313,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/img-mov/git/SoniBand-SoniShoes/Max/v9/media",
-					"projectrelativepath" : "../../../../SoniBand-SoniShoes/Max/v9/media"
+					"projectrelativepath" : "../../../SoniBand-SoniShoes/Max/v9/media"
 				}
 
 			}
