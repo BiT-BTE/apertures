@@ -98,10 +98,10 @@ void setup() {
   digitalWrite(enablePin, HIGH);  // Desactivar motores al inicio (HIGH = disable)
 
   stepper1.setMaxSpeed(40.0); // steps/s
-  stepper1.setAcceleration(20.0);  // steps/s^2
+  stepper1.setAcceleration(40.0);  // steps/s^2
 
   stepper2.setMaxSpeed(40.0);
-  stepper2.setAcceleration(20.0);
+  stepper2.setAcceleration(40.0);
 
   // --- Conexión WiFi ---
   Serial.print("Conectando a ");

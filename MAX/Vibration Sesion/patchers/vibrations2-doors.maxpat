@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1153.0, 789.0 ],
+		"rect" : [ 1546.0, -702.0, 1852.0, 900.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -68,7 +68,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1649.0, 313.0, 279.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "<--- Max is receiving the distance from Arduino in this port."
 				}
 
@@ -81,7 +80,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1144.0, 692.0, 279.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "<--- Max is sending the message to Arduino to the following ip and port"
 				}
 
@@ -94,7 +92,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 965.0, 499.0, 59.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Fully close"
 				}
 
@@ -107,7 +104,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1127.0, 506.0, 59.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Fully open"
 				}
 
@@ -143,8 +139,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1122.5, 78.0, 277.0, 127.0 ],
-					"presentation_linecount" : 26,
+					"patching_rect" : [ 1122.5, 78.0, 279.0, 127.0 ],
 					"text" : "/M1 -> Right door\n/M2 -> Left door\nThose messages moves the doors individually. Each door moves just after the last movement has finish.\nThe message /MB moves both doors at the same time.\nSame logic, any new order will be executed just after the last one has finish."
 				}
 
@@ -205,7 +200,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1113.0, 479.0, 74.0, 22.0 ],
-					"text" : "/MB -2.7 2.7"
+					"text" : "/MB -2.6 2.6"
 				}
 
 			}
@@ -217,7 +212,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 951.0, 475.0, 74.0, 22.0 ],
-					"text" : "/MB 2.7 -2.7"
+					"text" : "/MB 2.6 -2.6"
 				}
 
 			}
