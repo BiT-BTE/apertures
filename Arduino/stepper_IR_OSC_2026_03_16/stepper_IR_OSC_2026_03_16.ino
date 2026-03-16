@@ -15,7 +15,7 @@ WiFiUDP Udp;
 const unsigned int localPort = 8000;  // puerto donde escucha el Arduino para OSC
 
 // IP del ordenador donde está Max/MSP (cámbialo)
-IPAddress destIP(192, 168, 1, 102);
+IPAddress destIP(192, 168, 1, 103);
 // Puerto en el que Max recibe OSC
 const unsigned int destPort = 18000;
 
@@ -25,7 +25,7 @@ AccelStepper stepper1(AccelStepper::DRIVER, 2, 5);  // Motor 1: X-axis
 AccelStepper stepper2(AccelStepper::DRIVER, 3, 6);  // Motor 2: Y-axis
 
 const int enablePin   = 8;    // Pin Enable del CNC Shield
-const int stepsPerRev = 400;  // ajusta si usas microstepping (ej. 3200)
+const int stepsPerRev = 1600;  // ajusta si usas microstepping (ej. 3200)
 
 // ---------- CONVERSIÓN BÁSICA GP2Y0A21 ----------
 
@@ -94,6 +94,8 @@ float readDistanceCm(int pin, int id) {
 void setup() {
   Serial.begin(115200);
 
+  Serial.println();
+
   pinMode(enablePin, OUTPUT);
   digitalWrite(enablePin, HIGH);  // Desactivar motores al inicio (HIGH = disable)
 
@@ -102,6 +104,10 @@ void setup() {
 
   stepper2.setMaxSpeed(40.0);
   stepper2.setAcceleration(40.0);
+
+  Serial.println("Appertures 2026_03_16");
+  Serial.println("By: i_mBODY Lab Joaku De Sotavento");
+  Serial.println("I've seen things you people wouldn't believe");
 
   // --- Conexión WiFi ---
   Serial.print("Conectando a ");
@@ -112,10 +118,6 @@ void setup() {
     delay(500);
     Serial.print(".");
   }
-
-  Serial.println("\nWiFi conectado.");
-  Serial.print("IP local: ");
-  Serial.println(WiFi.localIP());
 
   // --- UDP para OSC ---
   Udp.begin(localPort);
@@ -130,6 +132,11 @@ void setup() {
   Serial.println("  /M2 <float>   (vueltas motor 2)");
   Serial.println("  /MB <f> <f>   (vueltas M1 y M2)");
   Serial.println("Mensaje OSC enviado: /sharp, f, f:");
+
+  Serial.println("\nWiFi conectado.");
+  Serial.print("IP local: ");
+  Serial.println(WiFi.localIP());
+
   
 }
 
