@@ -887,7 +887,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 749.0, 610.5, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 731.0, 508.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 731.0, 508.0, 83.0, 20.0 ],
 					"text" : "Triangular"
 				}
 
@@ -900,7 +900,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 749.0, 581.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 731.0, 478.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 731.0, 478.0, 83.0, 20.0 ],
 					"text" : "Sin"
 				}
 
@@ -913,7 +913,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 749.0, 552.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 731.0, 449.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 731.0, 449.0, 83.0, 20.0 ],
 					"text" : "Saw"
 				}
 
@@ -926,7 +926,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 749.0, 522.5, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 731.0, 420.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 731.0, 420.0, 83.0, 20.0 ],
 					"text" : "Square"
 				}
 
@@ -939,7 +939,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 749.0, 493.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 731.0, 390.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 731.0, 390.0, 83.0, 20.0 ],
 					"text" : "No Signal"
 				}
 
