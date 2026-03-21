@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1466.0, -988.0, 1452.0, 892.0 ],
+		"rect" : [ 34.0, 95.0, 1393.0, 791.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 960.5, 224.0, 111.0, 42.0 ],
+					"patching_rect" : [ 1528.0, 367.0, 111.0, 42.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 534.0, 604.0, 141.0, 24.0 ],
 					"text" : "Sensors Measure"
@@ -63,7 +63,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 870.0, 160.0, 100.0, 20.0 ],
+					"patching_rect" : [ 870.0, 126.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 915.0, 361.0, 120.0, 31.0 ],
 					"text" : "Close",
@@ -80,7 +80,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1303.0, 160.0, 100.0, 20.0 ],
+					"patching_rect" : [ 1303.0, 124.5, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1113.0, 361.0, 120.0, 31.0 ],
 					"text" : "Open",
@@ -126,7 +126,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1238.0, 242.0, 24.0, 24.0 ],
+					"patching_rect" : [ 1303.0, 203.5, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1239.0, 355.0, 44.0, 44.0 ]
 				}
@@ -139,8 +139,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1238.0, 208.0, 63.0, 22.0 ],
-					"text" : "metro 500"
+					"patching_rect" : [ 1303.0, 169.5, 69.0, 22.0 ],
+					"text" : "metro 2000"
 				}
 
 			}
@@ -152,7 +152,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 870.0, 243.0, 24.0, 24.0 ],
+					"patching_rect" : [ 870.0, 209.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1042.0, 355.0, 44.0, 44.0 ]
 				}
@@ -165,8 +165,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 870.0, 209.0, 63.0, 22.0 ],
-					"text" : "metro 500"
+					"patching_rect" : [ 870.0, 175.0, 69.0, 22.0 ],
+					"text" : "metro 2000"
 				}
 
 			}
@@ -201,8 +201,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1108.0, 228.0, 53.0, 22.0 ],
-					"text" : "/M1 -0.1"
+					"patching_rect" : [ 1108.0, 228.0, 66.0, 22.0 ],
+					"text" : "/M1 -0.036"
 				}
 
 			}
@@ -213,8 +213,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 979.5, 228.0, 49.0, 22.0 ],
-					"text" : "/M1 0.1"
+					"patching_rect" : [ 979.5, 228.0, 62.0, 22.0 ],
+					"text" : "/M1 0.036"
 				}
 
 			}
@@ -288,7 +288,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 965.0, 499.0, 81.0, 42.0 ],
+					"patching_rect" : [ 762.0, 240.0, 81.0, 42.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 915.0, 411.0, 170.0, 24.0 ],
 					"text" : "Fully close",
@@ -305,7 +305,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1127.0, 506.0, 81.0, 42.0 ],
+					"patching_rect" : [ 1346.0, 337.0, 81.0, 42.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1113.0, 411.0, 167.0, 24.0 ],
 					"text" : "Fully open",
@@ -344,7 +344,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1134.0, -27.0, 279.0, 127.0 ],
+					"patching_rect" : [ 1433.0, 5.0, 279.0, 127.0 ],
 					"text" : "/M1 -> Right door\n/M2 -> Left door\nThose messages moves the doors individually. Each door moves just after the last movement has finish.\nThe message /MB moves both doors at the same time.\nSame logic, any new order will be executed just after the last one has finish."
 				}
 
@@ -453,7 +453,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 945.5, 209.0, 111.0, 24.0 ],
+					"patching_rect" : [ 948.5, 92.726256983240205, 111.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 915.0, 335.0, 111.0, 24.0 ],
 					"text" : "Cerrar",
@@ -469,7 +469,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1122.5, 209.0, 84.0, 24.0 ],
+					"patching_rect" : [ 1313.0, 88.5, 84.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1113.0, 335.0, 84.0, 24.0 ],
 					"text" : "Abrir",
@@ -1563,7 +1563,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1068.0, 152.0, 128.0, 128.0 ],
+					"patching_rect" : [ 1132.0, 16.5, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 906.5, 310.0, 388.0, 275.0 ],
 					"proportion" : 0.5,
@@ -1579,7 +1579,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 830.0, 24.726256983240219, 296.0, 92.0 ],
+					"patching_rect" : [ 819.0, 5.0, 296.0, 92.0 ],
 					"pic" : "Macintosh HD:/Users/JoakuDeSotavento1/Documents/BODYinTRANSIT/Logos/i_mBODY lab/PNG [RGB 72]/I_mBODYlab_logo_02.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 63.0, 24.0, 257.0, 95.0 ]
