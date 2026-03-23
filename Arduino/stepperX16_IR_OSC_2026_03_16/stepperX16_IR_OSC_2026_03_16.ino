@@ -16,10 +16,10 @@ const unsigned int localPort = 8000;  // puerto donde escucha el Arduino para OS
 
 // IP del ordenador donde está Max/MSP (cámbialo)
 IPAddress destIP(192, 168, 1, 103);
-// Puerto en el que Max recibe OSC arduino 2
+// Puerto en el que Max recibe OSC arduino 2 puerta izquierda viendola de frente
   const unsigned int destPort = 19000;
 
-// Puerto en el que Max recibe OSC arduino 1
+// Puerto en el que Max recibe OSC arduino 1 puerta derecha viendola de frente
 // const unsigned int destPort = 18000;
 
 // ---------------- Motores ----------------
